@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #222;
+    font-family: system-ui, sans-serif;
+}
+
+main {
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+button {
+    padding: 8px 12px;
+}
+
+.list-shell {
+    height: 422px;
+    margin-top: 12px;
+    border: 1px solid #ccc;
+}
+
+.row {
+    display: flex;
+    min-height: 64px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.row small {
+    color: #666;
+}
